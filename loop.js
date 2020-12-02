@@ -60,7 +60,6 @@ const sum = function name(array) {
 
 console.log(sum([1, 2, 3])); // output: 6
 console.log(sum([5, 7, 9])); // output: 21
-console.log(sum([11, 2, 3])); // output: 16
 console.log(sum([8, 20, 13])); // output: 41
 console.log(sum(['A', 'B', 'C'])); // output: ABC
 
