@@ -47,8 +47,8 @@ console.log(starsFun(1)); // output: *
 // function to find sum of all the number in given array
 
 const sum = function name(array) {
-    let total = 0; // create total variable
-    i = 0; // rest counter to zero
+    let total = array[0]; // store array[0] on total variable
+    i = 1; // rest counter to 1
     while (i < array.length) {
         total = total + array[i]; // calculate sum
         i++; // increment counter
@@ -62,3 +62,4 @@ console.log(sum([1, 2, 3])); // output: 6
 console.log(sum([5, 7, 9])); // output: 21
 console.log(sum([11, 2, 3])); // output: 16
 console.log(sum([8, 20, 13])); // output: 41
+console.log(sum(['A', 'B', 'C'])); // output: ABC
