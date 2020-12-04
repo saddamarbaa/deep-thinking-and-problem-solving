@@ -5,8 +5,7 @@
 
 const sortBestRatingsFirst = function(Numbers) {
     // sortBestRatingsFirst([5, 8, 2, 9, 3, 10]) ---> [ 10, 9, 8, 5, 3, 2 ]
-    // outer loop
-    // findMax
+    // outer loop(findMax)
     for (let j = 0; j < Numbers.length - 1; j++) {
         let maximum = Numbers[j];
         let maxLocation = j;
@@ -15,12 +14,12 @@ const sortBestRatingsFirst = function(Numbers) {
             // to sort in ascending order just change 
             // ( Numbers[i] > maximum) to (Numbers[i] < maximum)
             if (Numbers[i] > maximum) {
-                // know max AND it,s index(location)
+                // find max item and its index
                 maximum = Numbers[i];
                 maxLocation = i;
             }
         }
-        // Swap the values 
+        // Swap the first and max item in an array 
         Numbers[maxLocation] = Numbers[j];
         Numbers[j] = maximum;
     }
