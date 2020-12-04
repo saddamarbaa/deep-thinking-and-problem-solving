@@ -23,7 +23,6 @@ console.log(findMin([7, 15, 5, 6, 8, 15, 30, 500, 0])); // output : 0
 console.log(findMin([16, 12, 4, 44, 23, 4])); // output : 4
 
 // Math.min()
-// Getting the Minimum element of an array
 // Array.reduce() can be used to find the Minimum element in a numeric array, by comparing each value
 
 let arr = [11, 200, 3000, 8, 54];
