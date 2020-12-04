@@ -25,7 +25,6 @@ console.log(findMax([7, 15, 5, 6, 8, 15, 30, 500, 0])); // output : 500
 console.log(findMax([16, 12, 4, 44, 23, 4])); // output : 44
 
 // Math.max()
-// Getting the maximum element of an array
 // Array.reduce() can be used to find the maximum element in a numeric array, by comparing each value
 
 let arr = [11, 200, 3000, 54];
