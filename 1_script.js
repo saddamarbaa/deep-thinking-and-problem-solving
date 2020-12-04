@@ -1,4 +1,4 @@
-/* Challenge 1: Add Two Numbers */
+//  Challenge 1: Add Two Numbers 
 
 function addNumbers(num1, num2) {
     return num1 + num2;
@@ -9,7 +9,7 @@ function addNumbers(num1, num2) {
 // console.log(addNumbers(15, 5));
 
 
-/* Challenge 2: Convert Minutes to Seconds */
+// Challenge 2: Convert Minutes to Seconds 
 
 function convertMinutesToSeconds(minutes) {
     return minutes * 60;
@@ -18,7 +18,7 @@ function convertMinutesToSeconds(minutes) {
 // console.log(convertMinutesToSeconds(1));
 // console.log(convertMinutesToSeconds(3));
 
-/* Challenge 3: Your Age In Seconds */
+// Challenge 3: Your Age In Seconds 
 
 function yourAgeInSeconds(age) {
     // years * months (12) * days (30) * hours (24) * minutes (60) * seconds (60)
@@ -27,7 +27,7 @@ function yourAgeInSeconds(age) {
 
 // console.log(yourAgeInSeconds(25));
 
-/* Challenge 4: First Item In An Array */
+// Challenge 4: First Item In An Array 
 
 function getFirstItem(items) {
     return items[0];
@@ -40,7 +40,7 @@ let movies = [
 
 // console.log(getFirstItem(movies))
 
-/* Challenge 5: Label Good Movies and Bad Movies */
+// Challenge 5: Label Good Movies and Bad Movies 
 
 // less than or equal to 7?
 // bad movies
@@ -68,7 +68,7 @@ function badOrGoodMovie(movie_rating) {
 // console.log(badOrGoodMovie(9.2)); // good
 // console.log(badOrGoodMovie(2));  // bad
 
-/* Challenge 6: Check if a string is empty */
+// Challenge 6: Check if a string is empty 
 
 // check if a string is empty
 function isEmptyString(some_string) {
@@ -84,7 +84,7 @@ function isEmptyString(some_string) {
 // console.log(isEmptyString(""))
 // console.log(isEmptyString("The Godfather"))
 
-/* Challenge 7: Finding the Minimum  */
+// Challenge 7: Finding the Minimum  
 
 function findMin(numbers) {
     // findMin([5, 2, 9, 8, 7, 3]) -> 2
@@ -101,7 +101,7 @@ function findMin(numbers) {
 // console.log(findMin([5, 2, 9, 8, 7, 3]))
 // console.log(findMin([5, 8, 9, 8, 7, 3]))
 
-/* Challenge 8: Finding the Maximum */
+// Challenge 8: Finding the Maximum 
 
 function findMax(numbers) {
     // findMax([5, 2, 9, 8, 7, 3, 13]) -> 13
@@ -119,7 +119,7 @@ function findMax(numbers) {
 // console.log(findMax([5, 2, 9, 8, 7, 3, 13]))
 // console.log(findMax([5, 8, 9, 8, 7, 3]))
 
-/* Challenge 9: Sort by Biggest Numbers */
+// Challenge 9: Sort by Biggest Numbers 
 
 function sortBestRatingsFirst(numbers) {
     // sortBestRatingsFirst([5, 8, 2, 9, 3, 10])
@@ -150,7 +150,7 @@ function sortBestRatingsFirst(numbers) {
 // console.log(sortBestRatingsFirst([9, 8, 1, 12, 3, 10]))
 // console.log(sortBestRatingsFirst([5, 9, 8, 1, 12, 3, 10]))
 
-/*  Challenge 10: How to Use Helper Functions */
+//  Challenge 10: How to Use Helper Functions 
 
 // Given a list of movies and their ratings..
 // you need to sort the list in a descending
@@ -189,10 +189,8 @@ function sortBestWithHelper(numbers) {
         numbers[max_location] = numbers[j]
         numbers[j] = max_num
     }
-
     return numbers
 }
-
 
 console.log(sortBestWithHelper([5, 8, 2, 9, 3, 10]))
 console.log(sortBestRatingsFirst([9, 8, 1, 12, 3, 10]))
