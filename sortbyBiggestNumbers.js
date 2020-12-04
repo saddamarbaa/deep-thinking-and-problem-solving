@@ -11,7 +11,7 @@ const sortBestRatingsFirst = function(Numbers) {
         let maximum = Numbers[j];
         let maxLocation = j;
         // inner loop
-        for (let i = j; i < Numbers.length; i++) {
+        for (let i = j + 1; i < Numbers.length; i++) {
             // to sort in ascending order just change 
             // ( Numbers[i] > maximum) to (Numbers[i] < maximum)
             if (Numbers[i] > maximum) {
@@ -31,7 +31,5 @@ const sortBestRatingsFirst = function(Numbers) {
 // Call function many time and pass argument for testing
 
 console.log(sortBestRatingsFirst([5, 8, 2, 9, 3, 10])); // output : [ 10, 9, 8, 5, 3, 2 ]
-
 console.log(sortBestRatingsFirst([20, 30, 40, 50])); // output : [ 50, 40, 30, 20 ]
-
 console.log(sortBestRatingsFirst([5, 9, 8, 1, 12, 3, 10])); // output :[12, 10, 9, 8, 5, 3, 1]
