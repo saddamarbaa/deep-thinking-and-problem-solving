@@ -19,5 +19,5 @@ const findMin = function(array) {
 
 console.log(findMin([1, 2, 3, 4])); // output : 1
 console.log(findMin([16, 22, 3, 4, 2])); // output : 2
-console.log(findMin([7, 15, 5, 6, 8, 15, 30, 500, 4])); // output : 2
+console.log(findMin([7, 15, 5, 6, 8, 15, 30, 500, 0])); // output : 0
 console.log(findMin([16, 12, 4, 44, 23, 4])); // output : 4
